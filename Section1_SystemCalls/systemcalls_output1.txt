@@ -1,0 +1,19 @@
+a. echo $PATH.
+/home/gigl/.local/bin:/home/gigl/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/local/cours/inf1900/SimulIDE_0.3.12-SR8-INF1900.3/bin:/usr/local/cours/inf1900/bin:/opt/pmccabe.
+
+b. which sleep
+/usr/bin/sleep
+
+c. 	1 /usr/bin/sleep 1
+	2 [gigl@fedora-gigl /]$ cd ./././bin
+	  [gigl@fedora-gigl bin]$ sleep 1
+	3[gigl@fedora-gigl usr]$ cd ../bin/
+	 [gigl@fedora-gigl bin]$ sleep 1
+
+d. sleep 1000 et ensuite ctrl+c pour faire un arret force
+	on peut voir le code de l interruption 
+	[gigl@fedora-gigl ~]$ sleep 1000
+	^C
+	[gigl@fedora-gigl ~]$ echo $?
+	130
+ 
