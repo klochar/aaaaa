@@ -1,0 +1,34 @@
+3383  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f911ebdaa10) = 3384
+3383  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f911ebdaa10) = 3385
+3383  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+3384  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+3383  <... clone resumed>, child_tidptr=0x7f911ebdaa10) = 3386
+3383  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+3384  <... clone resumed>, child_tidptr=0x7f911ebdaa10) = 3387
+3383  <... clone resumed>, child_tidptr=0x7f911ebdaa10) = 3388
+3385  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f911ebdaa10) = 3389
+3385  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f911ebdaa10) = 3390
+3386  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f911ebdaa10) = 3391
+3390  +++ exited with 0 +++
+3388  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+3385  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3390, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+3388  <... clone resumed>, child_tidptr=0x7f911ebdaa10) = 3392
+3387  +++ exited with 0 +++
+3388  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+3384  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3387, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+3385  +++ exited with 0 +++
+3383  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3385, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+3383  +++ exited with 0 +++
+3384  +++ exited with 0 +++
+3392  +++ exited with 0 +++
+3389  +++ exited with 0 +++
+3391  +++ exited with 0 +++
+3388  <... clone resumed>, child_tidptr=0x7f911ebdaa10) = 3393
+3388  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3392, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+3386  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3391, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+3388  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f911ebdaa10) = 3394
+3386  +++ exited with 0 +++
+3393  +++ exited with 0 +++
+3388  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3393, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+3388  +++ exited with 0 +++
+3394  +++ exited with 0 +++
