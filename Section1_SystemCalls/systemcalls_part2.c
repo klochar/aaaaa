@@ -13,7 +13,7 @@
 void part21 ()
 {
     	// TODO
-	const char *message1 = "77dbcb01f571f1c32s196c3a7d27f62e (printed using printf)\n";
+	const char *message1 = "77dbcb01f571f1c32s196c3a7d27f62e (printed using printf)";
     	while (*message1) {
         	printf("%c", *message1);
         	message1++;
@@ -27,7 +27,7 @@ void part22 ()
 {
     	// TODO
 	setvbuf(stdout, NULL, _IONBF, 0);
-    	const char *message1 = "77dbcb01f571f1c32s196c3a7d27f62e (printed using printf)\n";
+    	const char *message1 = "77dbcb01f571f1c32s196c3a7d27f62e (printed using printf)";
         while (*message1) {
                 printf("%c", *message1);
                 message1++;
