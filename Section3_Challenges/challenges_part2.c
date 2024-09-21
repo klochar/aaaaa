@@ -2,8 +2,8 @@
  * Ecole Polytechnique Montreal - GIGL
  * Automne 2024
  * Challenges - part2.c
- *
- * Ajoutez vos noms, prénoms et matricules
+ * Ghobrial, Mina Youhanna Helmi / 2214988
+ * Rouabah, Abdelmounaim / 2211513
 */
 #include "challenges_part2.h"
 

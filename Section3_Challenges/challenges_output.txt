@@ -1,0 +1,304 @@
+Data 1: Path: root
+Data 2: PID: 5383
+Data 3: PPID: 4482
+Files:
+Data 1: Path: root/dir_0_level_1
+Data 2: PID: 5384
+Data 3: PPID: 5383
+Files:
+Data 1: Path: root/dir_0_level_1/dir_3_level_2
+Data 2: PID: 5385
+Data 3: PPID: 5384
+Files:
+Data 1: Path: root/dir_0_level_1/dir_3_level_2/dir_2_level_3
+Data 2: PID: 5386
+Data 3: PPID: 5385
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_1_level_3.txt
+Data 1: Path: root/dir_0_level_1/dir_3_level_2/dir_4_level_3
+Data 2: PID: 5387
+Data 3: PPID: 5385
+Files:
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_0_level_3.txt
+Data 1: Path: root/dir_0_level_1/dir_3_level_2/dir_3_level_3
+Data 2: PID: 5388
+Data 3: PPID: 5385
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_1_level_2.txt
+  file_4_level_2.txt
+  file_2_level_2.txt
+  file_0_level_2.txt
+Data 1: Path: root/dir_2_level_1
+Data 2: PID: 5389
+Data 3: PPID: 5383
+Files:
+Data 1: Path: root/dir_2_level_1/dir_3_level_2
+Data 2: PID: 5390
+Data 3: PPID: 5389
+Files:
+Data 1: Path: root/dir_2_level_1/dir_3_level_2/dir_2_level_3
+Data 2: PID: 5391
+Data 3: PPID: 5390
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_5_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_6_level_4.txt
+  file_3_level_3.txt
+Data 1: Path: root/dir_2_level_1/dir_3_level_2/dir_1_level_3
+Data 2: PID: 5392
+Data 3: PPID: 5390
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_5_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_6_level_4.txt
+Data 1: Path: root/dir_2_level_1/dir_3_level_2/dir_4_level_3
+Data 2: PID: 5393
+Data 3: PPID: 5390
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_0_level_3.txt
+Data 1: Path: root/dir_2_level_1/dir_3_level_2/dir_5_level_3
+Data 2: PID: 5394
+Data 3: PPID: 5390
+Files:
+  file_3_level_4.txt
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_1_level_2.txt
+Data 1: Path: root/dir_2_level_1/dir_2_level_2
+Data 2: PID: 5395
+Data 3: PPID: 5389
+Files:
+Data 1: Path: root/dir_2_level_1/dir_2_level_2/dir_2_level_3
+Data 2: PID: 5396
+Data 3: PPID: 5395
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_5_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_6_level_4.txt
+  file_1_level_3.txt
+Data 1: Path: root/dir_2_level_1/dir_2_level_2/dir_0_level_3
+Data 2: PID: 5397
+Data 3: PPID: 5395
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_5_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_6_level_4.txt
+Data 1: Path: root/dir_2_level_1/dir_4_level_2
+Data 2: PID: 5398
+Data 3: PPID: 5389
+Files:
+  file_5_level_3.txt
+  file_3_level_3.txt
+  file_6_level_3.txt
+  file_1_level_3.txt
+  file_4_level_3.txt
+  file_0_level_3.txt
+  file_2_level_3.txt
+Data 1: Path: root/dir_2_level_1/dir_0_level_2
+Data 2: PID: 5399
+Data 3: PPID: 5389
+Files:
+Data 1: Path: root/dir_2_level_1/dir_0_level_2/dir_2_level_3
+Data 2: PID: 5400
+Data 3: PPID: 5399
+Files:
+  file_3_level_4.txt
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_3_level_3.txt
+  file_1_level_3.txt
+Data 1: Path: root/dir_2_level_1/dir_0_level_2/dir_4_level_3
+Data 2: PID: 5401
+Data 3: PPID: 5399
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+Data 1: Path: root/dir_2_level_1/dir_0_level_2/dir_6_level_3
+Data 2: PID: 5402
+Data 3: PPID: 5399
+Files:
+  file_3_level_4.txt
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_0_level_3.txt
+Data 1: Path: root/dir_2_level_1/dir_0_level_2/dir_5_level_3
+Data 2: PID: 5403
+Data 3: PPID: 5399
+Files:
+  file_3_level_4.txt
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+Data 1: Path: root/dir_5_level_1
+Data 2: PID: 5404
+Data 3: PPID: 5383
+Files:
+Data 1: Path: root/dir_5_level_1/dir_3_level_2
+Data 2: PID: 5405
+Data 3: PPID: 5404
+Files:
+  file_3_level_3.txt
+  file_6_level_3.txt
+Data 1: Path: root/dir_5_level_1/dir_3_level_2/dir_1_level_3
+Data 2: PID: 5406
+Data 3: PPID: 5405
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_5_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+Data 1: Path: root/dir_5_level_1/dir_3_level_2/dir_4_level_3
+Data 2: PID: 5407
+Data 3: PPID: 5405
+Files:
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_0_level_3.txt
+Data 1: Path: root/dir_5_level_1/dir_3_level_2/dir_5_level_3
+Data 2: PID: 5408
+Data 3: PPID: 5405
+Files:
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_2_level_3.txt
+Data 1: Path: root/dir_5_level_1/dir_1_level_2
+Data 2: PID: 5409
+Data 3: PPID: 5404
+Files:
+  file_1_level_3.txt
+Data 1: Path: root/dir_5_level_1/dir_1_level_2/dir_0_level_3
+Data 2: PID: 5410
+Data 3: PPID: 5409
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_5_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_2_level_3.txt
+Data 1: Path: root/dir_5_level_1/dir_2_level_2
+Data 2: PID: 5411
+Data 3: PPID: 5404
+Files:
+Data 1: Path: root/dir_5_level_1/dir_2_level_2/dir_2_level_3
+Data 2: PID: 5412
+Data 3: PPID: 5411
+Files:
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_3_level_3.txt
+  file_1_level_3.txt
+Data 1: Path: root/dir_5_level_1/dir_2_level_2/dir_0_level_3
+Data 2: PID: 5413
+Data 3: PPID: 5411
+Files:
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_4_level_3.txt
+Data 1: Path: root/dir_5_level_1/dir_2_level_2/dir_5_level_3
+Data 2: PID: 5414
+Data 3: PPID: 5411
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_5_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_6_level_4.txt
+Data 1: Path: root/dir_5_level_1/dir_4_level_2
+Data 2: PID: 5415
+Data 3: PPID: 5404
+Files:
+Data 1: Path: root/dir_5_level_1/dir_4_level_2/dir_2_level_3
+Data 2: PID: 5416
+Data 3: PPID: 5415
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_5_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_6_level_4.txt
+  file_1_level_3.txt
+Data 1: Path: root/dir_5_level_1/dir_4_level_2/dir_4_level_3
+Data 2: PID: 5417
+Data 3: PPID: 5415
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_5_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_0_level_3.txt
+Data 1: Path: root/dir_5_level_1/dir_4_level_2/dir_5_level_3
+Data 2: PID: 5418
+Data 3: PPID: 5415
+Files:
+  file_1_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+Data 1: Path: root/dir_5_level_1/dir_4_level_2/dir_3_level_3
+Data 2: PID: 5419
+Data 3: PPID: 5415
+Files:
+  file_3_level_4.txt
+  file_4_level_4.txt
+  file_1_level_4.txt
+  file_5_level_4.txt
+  file_2_level_4.txt
+  file_0_level_4.txt
+  file_6_level_4.txt
+  file_0_level_2.txt
+  file_3_level_1.txt
+  file_4_level_1.txt
+  file_1_level_1.txt

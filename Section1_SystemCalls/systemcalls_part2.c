@@ -3,7 +3,8 @@
  * Automne 2024
  * SystemCalls - part2.c
  *
- * Ajoutez vos noms, prénoms et matricules
+ * Ghobrial, Mina Youhanna Helmi / 2214988
+ * Rouabah, Abdelmounaim / 2211513
 */
 
 #include <stdio.h>
