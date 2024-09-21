@@ -91,7 +91,7 @@ void question1() {
 
     nbCount = waitChildTotal();
     
-    //printf("nb enfant cree : %d", nbCount);
+    printf("nb enfant cree : %d\n", nbCount);
     printProcRegistrations();
     execlp("ls", "ls", "-l", NULL);
     perror("execlp na pas marche");
