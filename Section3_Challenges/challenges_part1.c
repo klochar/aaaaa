@@ -7,71 +7,59 @@
 */
 #include "challenges_part1.h"
 
-void process_directory(const char *dir_path, int parent_pid, int level) {
-    DIR *dir;
-    struct dirent *entry;
-    pid_t pid = getpid();
+int counterNbTxt(const char *dirpath) {
+    struct dirent *fileEntry;
+    DIR *dir = opendir(dirpath);
+    if (!dir) return 0;
 
-    // Ouvrir le répertoire
-    if ((dir = opendir(dir_path)) == NULL) {
-        perror("opendir");
-        _exit(1);
-    }
-
-    // Préparation pour écrire dans le fichier challenges_output.txt
-    int output_file = open("challenges_output.txt", O_WRONLY | O_APPEND | O_CREAT, 0644);
-    if (output_file < 0) {
-        perror("open");
-        _exit(1);
-    }
-
-    // Informations du répertoire
-    dprintf(output_file, "Data 1: Path: %s\n", dir_path);
-    dprintf(output_file, "Data 2: PID: %d\n", pid);
-    dprintf(output_file, "Data 3: PPID: %d\n", parent_pid);
-    dprintf(output_file, "Files:\n");
-
-    // Parcourir le répertoire
-    while ((entry = readdir(dir)) != NULL) {
-        char full_path[1024];
-
-        if (strcmp(entry->d_name, ".") == 0 || strcmp(entry->d_name, "..") == 0) {
-            continue;
-        }
-
-        snprintf(full_path, sizeof(full_path), "%s/%s", dir_path, entry->d_name);
-
-        if (entry->d_type == DT_DIR) {
-            // C'est un sous-répertoire : on crée un processus enfant
-            pid_t child_pid = fork();
-            if (child_pid == 0) {
-                // Processus enfant
-                process_directory(full_path, pid, level + 1);
-                _exit(0);
-            } else {
-                // Attendre la fin du processus enfant
-                wait(NULL);
-            }
-        } else if (entry->d_type == DT_REG) {
-            // C'est un fichier : vérifier si c'est un fichier texte
-            if (strstr(entry->d_name, ".txt") != NULL) {
-                dprintf(output_file, "  %s\n", entry->d_name);
-            }
+    int txtCounter = 0;
+    while ((fileEntry = readdir(dir)) != NULL) {
+        if (fileEntry->d_type == DT_REG && strstr(fileEntry->d_name, ".txt")) {
+            txtCounter++;
         }
     }
-
     closedir(dir);
-    close(output_file);
+    return txtCounter;
 }
 
-int waitChildTotal() {
-    int status, total = 0;
-    while (wait(&status) > 0) {
-        if (WIFEXITED(status)) {
-            total += WEXITSTATUS(status);
+void proceDir(const char *dirpath, FILE *output, pid_t parent_pid) {
+    struct dirent *entry;
+    DIR *dir = opendir(dirpath);
+    if (!dir) {
+        perror("error opendir");
+        return;
+    }
+    pid_t pid = getpid();
+    int txt_count = counterNbTxt(dirpath);
+
+    fprintf(output, "Data 1: %s\n", dirpath); 
+    fprintf(output, "Data 2: %d\n", pid);
+    fprintf(output, "Data 3: %d\n", parent_pid); 
+
+    fprintf(output, "Files:\n");
+    rewinddir(dir); 
+    while ((entry = readdir(dir)) != NULL) {
+        if (entry->d_type == DT_REG && strstr(entry->d_name, ".txt")) {
+            fprintf(output, "%s\n", entry->d_name);
         }
     }
-    return total;
+    rewinddir(dir); 
+    while ((entry = readdir(dir)) != NULL) {
+        if (entry->d_type == DT_DIR && strcmp(entry->d_name, ".") != 0 && strcmp(entry->d_name, "..") != 0) {
+            pid_t child_pid = fork();
+            if (child_pid == 0) {
+
+                char subdir[1024];
+                snprintf(subdir, sizeof(subdir), "%s/%s", dirpath, entry->d_name);
+                proceDir(subdir, output, pid); 
+                exit(0);
+            }
+        }
+    }
+
+
+    closedir(dir);
+    while (wait(NULL) > 0);
 }
 
 int main(int argc, char *argv[]) {
@@ -80,21 +68,18 @@ int main(int argc, char *argv[]) {
         exit(EXIT_FAILURE);
     }
 
-    // Initialiser le fichier challenges_output.txt
-    int output_file = open("challenges_output.txt", O_WRONLY | O_TRUNC | O_CREAT, 0644);
-    if (output_file < 0) {
-        perror("open");
+    const char *root_dir = argv[1];
+
+
+    FILE *output = fopen("challenges_output.txt", "w");
+    if (!output) {
+        perror("fopen");
         exit(EXIT_FAILURE);
     }
-    close(output_file);
 
-    // Lancer le traitement à partir du répertoire racine fourni en argument
-    process_directory(argv[1], getppid(), 0);
+    proceDir(root_dir, output, getpid());
 
-    // Afficher le nombre total d'enfants
-    int total_files = waitChildTotal();
-    printf("Nombre total de fichiers texte: %d\n", total_files);
-
+    fclose(output);
+    
     return 0;
 }
-

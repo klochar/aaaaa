@@ -76,37 +76,37 @@ void print_matrix(const Matrix* mat) {
     }
 }
 
-int main(int argc, char*argv[]){
+// int main(int argc, char*argv[]){
 
-     Matrix* A = create_matrix(2, 3); 
-    short valuesA[2][3] = {
-        {1, 2, 3},
-        {4, 5, 6}
-    };
-    fill_matrix(A, valuesA);
+//      Matrix* A = create_matrix(2, 3); 
+//     short valuesA[2][3] = {
+//         {1, 2, 3},
+//         {4, 5, 6}
+//     };
+//     fill_matrix(A, valuesA);
 
-    Matrix* B = create_matrix(3, 2); 
-    short valuesB[3][2] = {
-        {7, 8},
-        {9, 10},
-        {11, 12}
-    };
-    fill_matrix(B, valuesB);
+//     Matrix* B = create_matrix(3, 2); 
+//     short valuesB[3][2] = {
+//         {7, 8},
+//         {9, 10},
+//         {11, 12}
+//     };
+//     fill_matrix(B, valuesB);
 
-    printf("matrice a :\n");
-    print_matrix(A);
-    printf("matrice b:\n");
-    print_matrix(B);
-    Matrix* C = multiply(A, B);
+//     printf("matrice a :\n");
+//     print_matrix(A);
+//     printf("matrice b:\n");
+//     print_matrix(B);
+//     Matrix* C = multiply(A, B);
 
-    if (C == NULL) {
-        printf("dimension invalide, imopssible multiplicatiion\n");
-    } else {
+//     if (C == NULL) {
+//         printf("dimension invalide, imopssible multiplicatiion\n");
+//     } else {
 
-        printf("AxB :\n");
-        print_matrix(C);
-    }
+//         printf("AxB :\n");
+//         print_matrix(C);
+//     }
 
 
-    return 0;
-}
+//     return 0;
+// }

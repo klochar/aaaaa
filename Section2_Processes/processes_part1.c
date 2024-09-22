@@ -91,6 +91,7 @@ void question1() {
 
     nbCount = waitChildTotal();
     
+    //le pere ne sera pas compte (processus du question1())
     printf("nb enfant cree : %d\n", nbCount);
     printProcRegistrations();
     execlp("ls", "ls", "-l", NULL);

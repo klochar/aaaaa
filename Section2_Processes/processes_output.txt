@@ -1,37 +1,41 @@
-2958  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fdb866b0a10) = 2959
-2958  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fdb866b0a10) = 2960
-2958  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fdb866b0a10) = 2961
-2958  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fdb866b0a10) = 2962
-2959  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fdb866b0a10) = 2963
-2960  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fdb866b0a10) = 2964
-2960  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
-2962  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
-2960  <... clone resumed>, child_tidptr=0x7fdb866b0a10) = 2965
-2962  <... clone resumed>, child_tidptr=0x7fdb866b0a10) = 2966
-2962  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
-2961  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
-2962  <... clone resumed>, child_tidptr=0x7fdb866b0a10) = 2967
-2961  <... clone resumed>, child_tidptr=0x7fdb866b0a10) = 2968
-2962  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fdb866b0a10) = 2969
-2964  +++ exited with 0 +++
-2963  +++ exited with 0 +++
-2960  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2964, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-2959  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2963, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-2965  +++ exited with 0 +++
-2959  +++ exited with 1 +++
-2960  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2965, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-2960  +++ exited with 2 +++
-2958  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2959, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
-2969  +++ exited with 0 +++
-2962  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2969, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-2968  +++ exited with 0 +++
-2966  +++ exited with 0 +++
-2961  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2968, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-2962  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2966, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-2961  +++ exited with 1 +++
-2958  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2961, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
-2967  +++ exited with 0 +++
-2962  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2967, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
-2962  +++ exited with 3 +++
-2958  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2962, si_uid=1000, si_status=3, si_utime=0, si_stime=0} ---
-2958  +++ exited with 0 +++
+1966  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f47e00c8a10) = 1967
+1966  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+1967  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+1966  <... clone resumed>, child_tidptr=0x7f47e00c8a10) = 1968
+1967  <... clone resumed>, child_tidptr=0x7f47e00c8a10) = 1969
+1966  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+1969  +++ exited with 0 +++
+1967  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1969, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+1966  <... clone resumed>, child_tidptr=0x7f47e00c8a10) = 1970
+1967  +++ exited with 1 +++
+1966  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1967, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+1966  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+1968  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+1966  <... clone resumed>, child_tidptr=0x7f47e00c8a10) = 1971
+1971  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f47e00c8a10) = 1972
+1971  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f47e00c8a10) = 1973
+1971  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f47e00c8a10) = 1975
+1968  <... clone resumed>, child_tidptr=0x7f47e00c8a10) = 1974
+1968  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+1974  +++ exited with 0 +++
+1970  clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+1968  <... clone resumed>, child_tidptr=0x7f47e00c8a10) = 1976
+1975  +++ exited with 0 +++
+1971  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1975, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+1968  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1974, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+1970  <... clone resumed>, child_tidptr=0x7f47e00c8a10) = 1977
+1972  +++ exited with 0 +++
+1971  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1972, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+1977  +++ exited with 0 +++
+1973  +++ exited with 0 +++
+1970  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1977, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+1971  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1973, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+1971  +++ exited with 3 +++
+1966  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1971, si_uid=1000, si_status=3, si_utime=0, si_stime=0} ---
+1976  +++ exited with 0 +++
+1968  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1976, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+1970  +++ exited with 1 +++
+1966  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1970, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+1968  +++ exited with 2 +++
+1966  --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1968, si_uid=1000, si_status=2, si_utime=0, si_stime=0} ---
+1966  +++ exited with 0 +++

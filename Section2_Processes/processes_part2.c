@@ -22,11 +22,11 @@ long somme[nb];
 void* contribution(void*p)
 {
     long no = (long)p;
-    long start = (no * m / nb) + 1;
-    long end = (no + 1) * m / nb;
+    long debut = (no * m / nb) + 1;
+    long fin = (no + 1) * m / nb;
     somme[no] = 0;
 
-    for (long i = start; i <= end; i++) {
+    for (long i = debut; i <= fin; i++) {
         somme[no] += i;
     }
 
@@ -53,8 +53,8 @@ void question2( )
 
     long longSommationM = m;
     long shouldBe = longSommationM * (longSommationM + 1) / 2;
-    printf("calculated by threads: %ld\n", total);
-    printf("should be: %ld\n", shouldBe); 
+    printf("calcule par les threads = %ld\n", total);
+    printf("doit etre = %ld\n", shouldBe); 
     
 }
 
