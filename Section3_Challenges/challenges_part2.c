@@ -7,15 +7,37 @@
 */
 #include "challenges_part2.h"
 
+typedef struct {
+    Matrix* A;
+    Matrix* B;
+    Matrix* C;
+    int row;
+} ThreadData;
+
+void* multiply_row(void* arg) {
+    ThreadData* data = (ThreadData*)arg;
+    Matrix* A = data->A;
+    Matrix* B = data->B;
+    Matrix* C = data->C;
+    int row = data->row;
+
+    for (int j = 0; j < C->cols; j++) {
+        C->matrix[row][j] = 0; 
+        for (int k = 0; k < A->cols; k++) {
+            C->matrix[row][j] += A->matrix[row][k] * B->matrix[k][j]; 
+        }
+    }
+    return NULL;
+}
+
 Matrix* multiply(Matrix* A, Matrix* B) {
-    // printf("A: rows = %d, cols = %d\n", A->rows, A->cols);
-    // printf("B: rows = %d, cols = %d\n", B->rows, B->cols);
-    if (A->rows <= 0 || A->cols <= 0 || B->cols<=0||B->rows<=0) {
+    if (A->rows <= 0 || A->cols <= 0 || B->cols <= 0 || B->rows <= 0) {
         return NULL;  
     }
     if (A->cols != B->rows) {
         return NULL; 
     }
+    
     Matrix* C = malloc(sizeof(Matrix));
     if (!C) {
         return NULL; 
@@ -40,15 +62,24 @@ Matrix* multiply(Matrix* A, Matrix* B) {
         }
     }
 
+    pthread_t* threads = malloc(C->rows * sizeof(pthread_t));
+    ThreadData* thread_data = malloc(C->rows * sizeof(ThreadData));
+
     for (int i = 0; i < C->rows; i++) {
-        for (int j = 0; j < C->cols; j++) {
-            C->matrix[i][j] = 0; 
-            for (int k = 0; k < A->cols; k++) {
-                C->matrix[i][j] += A->matrix[i][k] * B->matrix[k][j]; 
-            }
-        }
+        thread_data[i].A = A;
+        thread_data[i].B = B;
+        thread_data[i].C = C;
+        thread_data[i].row = i;
+        pthread_create(&threads[i], NULL, multiply_row, &thread_data[i]);
     }
 
+    for (int i = 0; i < C->rows; i++) {
+        pthread_join(threads[i], NULL);
+    }
+
+    free(threads);
+    free(thread_data);
+    
     return C; 
 }
 
@@ -80,37 +111,22 @@ void print_matrix(const Matrix* mat) {
     }
 }
 
-// int main(int argc, char*argv[]){
-
-//     Matrix* A = create_matrix(2, 3); 
-//     short valuesA[2][3] = {
-//         {1, 2, 3},
-//         {4, 5, 6}
-//     };
+// int main() {
+//     Matrix* A = create_matrix(2, 3);
+//     short valuesA[2][3] = {{1, 2, 3}, {4, 5, 6}};
 //     fill_matrix(A, valuesA);
-
-//     Matrix* B = create_matrix(3, 2); 
-//     short valuesB[3][2] = {
-//         {7, 8},
-//         {9, 10},
-//         {11, 12}
-//     };
-//     fill_matrix(B, valuesB);
-
-//     printf("matrice a :\n");
+//     printf("A:\n");
 //     print_matrix(A);
-//     printf("matrice b:\n");
+
+//     Matrix* B = create_matrix(3, 2);
+//     short valuesB[3][2] = {{7, 8}, {9, 10}, {11, 12}};
+//     fill_matrix(B, valuesB);
+//     printf("B:\n");
 //     print_matrix(B);
+
 //     Matrix* C = multiply(A, B);
-
-//     if (C == NULL) {
-//         printf("dimension invalide, imopssible multiplicatiion\n");
-//     } else {
-
-//         printf("AxB :\n");
-//         print_matrix(C);
-//     }
-
-
+    
+//     printf("AXB:\n");
+//     print_matrix(C);
 //     return 0;
 // }
