@@ -8,7 +8,11 @@
 #include "challenges_part2.h"
 
 Matrix* multiply(Matrix* A, Matrix* B) {
-   
+    // printf("A: rows = %d, cols = %d\n", A->rows, A->cols);
+    // printf("B: rows = %d, cols = %d\n", B->rows, B->cols);
+    if (A->rows <= 0 || A->cols <= 0 || B->cols<=0||B->rows<=0) {
+        return NULL;  
+    }
     if (A->cols != B->rows) {
         return NULL; 
     }
@@ -78,7 +82,7 @@ void print_matrix(const Matrix* mat) {
 
 // int main(int argc, char*argv[]){
 
-//      Matrix* A = create_matrix(2, 3); 
+//     Matrix* A = create_matrix(2, 3); 
 //     short valuesA[2][3] = {
 //         {1, 2, 3},
 //         {4, 5, 6}
