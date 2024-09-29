@@ -17,3 +17,40 @@ d. sleep 1000 et ensuite ctrl+c pour faire un arret force
 	[gigl@fedora-gigl ~]$ echo $?
 	130
  
+ 1.1.1 avait ete ajoute apres, voici resultat :
+ 
+/home/gigl/Bureau/aaaaa/Section1_SystemCalls
+
+ls:
+Makefile
+processes_output.txt
+systemcalls_output1.txt
+systemcalls_output2.txt
+systemcalls_part1
+systemcalls_part1.c
+systemcalls_part2
+systemcalls_part2.c
+
+ls | sort:
+Makefile
+processes_output.txt
+systemcalls_output1.txt
+systemcalls_output2.txt
+systemcalls_part1
+systemcalls_part1.c
+systemcalls_part2
+systemcalls_part2.c
+
+echo message1:
+message1
+
+contenu foo.txt:
+message1
+message2
+
+UNAME:
+Linux
+Linux
+6.5.12-100.fc37.x86_64
+GNU/Linux
+x86_64
