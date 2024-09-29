@@ -1,157 +1,169 @@
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_0_level_1: 4
-Data 1: root//dir_0_level_1
-Data 2: 3688
-Data 3: 3687
+nb .txt file in root/dir_0_level_1: 4
+Data 1: root/dir_0_level_1
+Data 2: 3371
+Data 3: 3370
 Files:
 file_1_level_2.txt
 file_4_level_2.txt
 file_2_level_2.txt
 file_0_level_2.txt
-nb .txt file in root//dir_0_level_1/dir_3_level_2: 2
-Data 1: root//dir_0_level_1/dir_3_level_2
-Data 2: 3691
-Data 3: 3688
+nb .txt file in root/dir_0_level_1/dir_3_level_2: 2
+Data 1: root/dir_0_level_1/dir_3_level_2
+Data 2: 3372
+Data 3: 3371
 Files:
 file_1_level_3.txt
 file_0_level_3.txt
-nb .txt file in root//dir_0_level_1/dir_3_level_2/dir_3_level_3: 5
-Data 1: root//dir_0_level_1/dir_3_level_2/dir_3_level_3
-Data 2: 3697
-Data 3: 3691
+nb .txt file in root/dir_0_level_1/dir_3_level_2/dir_2_level_3: 5
+Data 1: root/dir_0_level_1/dir_3_level_2/dir_2_level_3
+Data 2: 3373
+Data 3: 3372
 Files:
 file_3_level_4.txt
 file_4_level_4.txt
 file_1_level_4.txt
 file_2_level_4.txt
 file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_0_level_1: 4
-Data 1: root//dir_0_level_1
-Data 2: 3688
-Data 3: 3687
+nb .txt file in root/dir_0_level_1: 4
+Data 1: root/dir_0_level_1
+Data 2: 3371
+Data 3: 3370
 Files:
 file_1_level_2.txt
 file_4_level_2.txt
 file_2_level_2.txt
 file_0_level_2.txt
-nb .txt file in root//dir_0_level_1/dir_3_level_2: 2
-Data 1: root//dir_0_level_1/dir_3_level_2
-Data 2: 3691
-Data 3: 3688
+nb .txt file in root/dir_0_level_1/dir_3_level_2: 2
+Data 1: root/dir_0_level_1/dir_3_level_2
+Data 2: 3372
+Data 3: 3371
 Files:
 file_1_level_3.txt
 file_0_level_3.txt
-nb .txt file in root//dir_0_level_1/dir_3_level_2/dir_4_level_3: 3
-Data 1: root//dir_0_level_1/dir_3_level_2/dir_4_level_3
-Data 2: 3695
-Data 3: 3691
+nb .txt file in root/dir_0_level_1/dir_3_level_2/dir_4_level_3: 3
+Data 1: root/dir_0_level_1/dir_3_level_2/dir_4_level_3
+Data 2: 3374
+Data 3: 3372
 Files:
 file_1_level_4.txt
 file_2_level_4.txt
 file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
+nb .txt file in root/dir_0_level_1: 4
+Data 1: root/dir_0_level_1
+Data 2: 3371
+Data 3: 3370
 Files:
+file_1_level_2.txt
+file_4_level_2.txt
+file_2_level_2.txt
 file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_2_level_2: 3
-Data 1: root//dir_5_level_1/dir_2_level_2
-Data 2: 3696
-Data 3: 3690
-Files:
-file_3_level_3.txt
-file_1_level_3.txt
-file_4_level_3.txt
-nb .txt file in root//dir_5_level_1/dir_2_level_2/dir_2_level_3: 3
-Data 1: root//dir_5_level_1/dir_2_level_2/dir_2_level_3
-Data 2: 3704
-Data 3: 3696
-Files:
-file_1_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
-Files:
-file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_1_level_2: 2
-Data 1: root//dir_5_level_1/dir_1_level_2
-Data 2: 3694
-Data 3: 3690
+nb .txt file in root/dir_0_level_1/dir_3_level_2: 2
+Data 1: root/dir_0_level_1/dir_3_level_2
+Data 2: 3372
+Data 3: 3371
 Files:
 file_1_level_3.txt
-file_2_level_3.txt
-nb .txt file in root//dir_5_level_1/dir_1_level_2/dir_0_level_3: 6
-Data 1: root//dir_5_level_1/dir_1_level_2/dir_0_level_3
-Data 2: 3700
-Data 3: 3694
+file_0_level_3.txt
+nb .txt file in root/dir_0_level_1/dir_3_level_2/dir_3_level_3: 5
+Data 1: root/dir_0_level_1/dir_3_level_2/dir_3_level_3
+Data 2: 3375
+Data 3: 3372
 Files:
 file_3_level_4.txt
 file_4_level_4.txt
 file_1_level_4.txt
-file_5_level_4.txt
 file_2_level_4.txt
 file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
+nb .txt file in root/dir_0_level_1: 4
+Data 1: root/dir_0_level_1
+Data 2: 3371
+Data 3: 3370
 Files:
+file_1_level_2.txt
+file_4_level_2.txt
+file_2_level_2.txt
 file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_2_level_2: 3
-Data 1: root//dir_5_level_1/dir_2_level_2
-Data 2: 3696
-Data 3: 3690
+nb .txt file in root/dir_0_level_1/dir_3_level_2: 2
+Data 1: root/dir_0_level_1/dir_3_level_2
+Data 2: 3372
+Data 3: 3371
+Files:
+file_1_level_3.txt
+file_0_level_3.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_0_level_1: 4
+Data 1: root/dir_0_level_1
+Data 2: 3371
+Data 3: 3370
+Files:
+file_1_level_2.txt
+file_4_level_2.txt
+file_2_level_2.txt
+file_0_level_2.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_3_level_2: 2
+Data 1: root/dir_2_level_1/dir_3_level_2
+Data 2: 3377
+Data 3: 3376
 Files:
 file_3_level_3.txt
-file_1_level_3.txt
-file_4_level_3.txt
-nb .txt file in root//dir_5_level_1/dir_2_level_2/dir_5_level_3: 7
-Data 1: root//dir_5_level_1/dir_2_level_2/dir_5_level_3
-Data 2: 3707
-Data 3: 3696
+file_0_level_3.txt
+nb .txt file in root/dir_2_level_1/dir_3_level_2/dir_2_level_3: 7
+Data 1: root/dir_2_level_1/dir_3_level_2/dir_2_level_3
+Data 2: 3378
+Data 3: 3377
 Files:
 file_3_level_4.txt
 file_4_level_4.txt
@@ -160,54 +172,223 @@ file_5_level_4.txt
 file_2_level_4.txt
 file_0_level_4.txt
 file_6_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
 Files:
-file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_2_level_2: 3
-Data 1: root//dir_5_level_1/dir_2_level_2
-Data 2: 3696
-Data 3: 3690
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_3_level_2: 2
+Data 1: root/dir_2_level_1/dir_3_level_2
+Data 2: 3377
+Data 3: 3376
 Files:
 file_3_level_3.txt
-file_1_level_3.txt
-file_4_level_3.txt
-nb .txt file in root//dir_5_level_1/dir_2_level_2/dir_0_level_3: 3
-Data 1: root//dir_5_level_1/dir_2_level_2/dir_0_level_3
-Data 2: 3705
-Data 3: 3696
+file_0_level_3.txt
+nb .txt file in root/dir_2_level_1/dir_3_level_2/dir_1_level_3: 7
+Data 1: root/dir_2_level_1/dir_3_level_2/dir_1_level_3
+Data 2: 3379
+Data 3: 3377
 Files:
+file_3_level_4.txt
+file_4_level_4.txt
+file_1_level_4.txt
+file_5_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+file_6_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_3_level_2: 2
+Data 1: root/dir_2_level_1/dir_3_level_2
+Data 2: 3377
+Data 3: 3376
+Files:
+file_3_level_3.txt
+file_0_level_3.txt
+nb .txt file in root/dir_2_level_1/dir_3_level_2/dir_4_level_3: 5
+Data 1: root/dir_2_level_1/dir_3_level_2/dir_4_level_3
+Data 2: 3380
+Data 3: 3377
+Files:
+file_3_level_4.txt
+file_4_level_4.txt
 file_1_level_4.txt
 file_2_level_4.txt
 file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
 Files:
 file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_4_level_2: 7
-Data 1: root//dir_2_level_1/dir_4_level_2
-Data 2: 3702
-Data 3: 3689
+nb .txt file in root/dir_2_level_1/dir_3_level_2: 2
+Data 1: root/dir_2_level_1/dir_3_level_2
+Data 2: 3377
+Data 3: 3376
+Files:
+file_3_level_3.txt
+file_0_level_3.txt
+nb .txt file in root/dir_2_level_1/dir_3_level_2/dir_5_level_3: 4
+Data 1: root/dir_2_level_1/dir_3_level_2/dir_5_level_3
+Data 2: 3381
+Data 3: 3377
+Files:
+file_3_level_4.txt
+file_1_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_3_level_2: 2
+Data 1: root/dir_2_level_1/dir_3_level_2
+Data 2: 3377
+Data 3: 3376
+Files:
+file_3_level_3.txt
+file_0_level_3.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_2_level_2: 1
+Data 1: root/dir_2_level_1/dir_2_level_2
+Data 2: 3382
+Data 3: 3376
+Files:
+file_1_level_3.txt
+nb .txt file in root/dir_2_level_1/dir_2_level_2/dir_2_level_3: 7
+Data 1: root/dir_2_level_1/dir_2_level_2/dir_2_level_3
+Data 2: 3383
+Data 3: 3382
+Files:
+file_3_level_4.txt
+file_4_level_4.txt
+file_1_level_4.txt
+file_5_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+file_6_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_2_level_2: 1
+Data 1: root/dir_2_level_1/dir_2_level_2
+Data 2: 3382
+Data 3: 3376
+Files:
+file_1_level_3.txt
+nb .txt file in root/dir_2_level_1/dir_2_level_2/dir_0_level_3: 7
+Data 1: root/dir_2_level_1/dir_2_level_2/dir_0_level_3
+Data 2: 3384
+Data 3: 3382
+Files:
+file_3_level_4.txt
+file_4_level_4.txt
+file_1_level_4.txt
+file_5_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+file_6_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_2_level_2: 1
+Data 1: root/dir_2_level_1/dir_2_level_2
+Data 2: 3382
+Data 3: 3376
+Files:
+file_1_level_3.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_4_level_2: 7
+Data 1: root/dir_2_level_1/dir_4_level_2
+Data 2: 3385
+Data 3: 3376
 Files:
 file_5_level_3.txt
 file_3_level_3.txt
@@ -216,74 +397,425 @@ file_1_level_3.txt
 file_4_level_3.txt
 file_0_level_3.txt
 file_2_level_3.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_0_level_2: 3
+Data 1: root/dir_2_level_1/dir_0_level_2
+Data 2: 3386
+Data 3: 3376
+Files:
+file_3_level_3.txt
+file_1_level_3.txt
+file_0_level_3.txt
+nb .txt file in root/dir_2_level_1/dir_0_level_2/dir_2_level_3: 4
+Data 1: root/dir_2_level_1/dir_0_level_2/dir_2_level_3
+Data 2: 3387
+Data 3: 3386
+Files:
+file_3_level_4.txt
+file_1_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_0_level_2: 3
+Data 1: root/dir_2_level_1/dir_0_level_2
+Data 2: 3386
+Data 3: 3376
+Files:
+file_3_level_3.txt
+file_1_level_3.txt
+file_0_level_3.txt
+nb .txt file in root/dir_2_level_1/dir_0_level_2/dir_4_level_3: 5
+Data 1: root/dir_2_level_1/dir_0_level_2/dir_4_level_3
+Data 2: 3388
+Data 3: 3386
+Files:
+file_3_level_4.txt
+file_4_level_4.txt
+file_1_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_0_level_2: 3
+Data 1: root/dir_2_level_1/dir_0_level_2
+Data 2: 3386
+Data 3: 3376
+Files:
+file_3_level_3.txt
+file_1_level_3.txt
+file_0_level_3.txt
+nb .txt file in root/dir_2_level_1/dir_0_level_2/dir_6_level_3: 4
+Data 1: root/dir_2_level_1/dir_0_level_2/dir_6_level_3
+Data 2: 3389
+Data 3: 3386
+Files:
+file_3_level_4.txt
+file_1_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_0_level_2: 3
+Data 1: root/dir_2_level_1/dir_0_level_2
+Data 2: 3386
+Data 3: 3376
+Files:
+file_3_level_3.txt
+file_1_level_3.txt
+file_0_level_3.txt
+nb .txt file in root/dir_2_level_1/dir_0_level_2/dir_5_level_3: 4
+Data 1: root/dir_2_level_1/dir_0_level_2/dir_5_level_3
+Data 2: 3390
+Data 3: 3386
+Files:
+file_3_level_4.txt
+file_1_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root/dir_2_level_1/dir_0_level_2: 3
+Data 1: root/dir_2_level_1/dir_0_level_2
+Data 2: 3386
+Data 3: 3376
+Files:
+file_3_level_3.txt
+file_1_level_3.txt
+file_0_level_3.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_2_level_1: 1
+Data 1: root/dir_2_level_1
+Data 2: 3376
+Data 3: 3370
+Files:
+file_1_level_2.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
 Files:
 file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_1_level_2: 2
-Data 1: root//dir_5_level_1/dir_1_level_2
-Data 2: 3694
-Data 3: 3690
+nb .txt file in root/dir_5_level_1/dir_3_level_2: 4
+Data 1: root/dir_5_level_1/dir_3_level_2
+Data 2: 3392
+Data 3: 3391
+Files:
+file_3_level_3.txt
+file_6_level_3.txt
+file_0_level_3.txt
+file_2_level_3.txt
+nb .txt file in root/dir_5_level_1/dir_3_level_2/dir_1_level_3: 6
+Data 1: root/dir_5_level_1/dir_3_level_2/dir_1_level_3
+Data 2: 3393
+Data 3: 3392
+Files:
+file_3_level_4.txt
+file_4_level_4.txt
+file_1_level_4.txt
+file_5_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
+Files:
+file_0_level_2.txt
+nb .txt file in root/dir_5_level_1/dir_3_level_2: 4
+Data 1: root/dir_5_level_1/dir_3_level_2
+Data 2: 3392
+Data 3: 3391
+Files:
+file_3_level_3.txt
+file_6_level_3.txt
+file_0_level_3.txt
+file_2_level_3.txt
+nb .txt file in root/dir_5_level_1/dir_3_level_2/dir_4_level_3: 3
+Data 1: root/dir_5_level_1/dir_3_level_2/dir_4_level_3
+Data 2: 3394
+Data 3: 3392
+Files:
+file_1_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
+Files:
+file_0_level_2.txt
+nb .txt file in root/dir_5_level_1/dir_3_level_2: 4
+Data 1: root/dir_5_level_1/dir_3_level_2
+Data 2: 3392
+Data 3: 3391
+Files:
+file_3_level_3.txt
+file_6_level_3.txt
+file_0_level_3.txt
+file_2_level_3.txt
+nb .txt file in root/dir_5_level_1/dir_3_level_2/dir_5_level_3: 3
+Data 1: root/dir_5_level_1/dir_3_level_2/dir_5_level_3
+Data 2: 3395
+Data 3: 3392
+Files:
+file_1_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
+Files:
+file_0_level_2.txt
+nb .txt file in root/dir_5_level_1/dir_3_level_2: 4
+Data 1: root/dir_5_level_1/dir_3_level_2
+Data 2: 3392
+Data 3: 3391
+Files:
+file_3_level_3.txt
+file_6_level_3.txt
+file_0_level_3.txt
+file_2_level_3.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
+Files:
+file_0_level_2.txt
+nb .txt file in root/dir_5_level_1/dir_1_level_2: 2
+Data 1: root/dir_5_level_1/dir_1_level_2
+Data 2: 3396
+Data 3: 3391
 Files:
 file_1_level_3.txt
 file_2_level_3.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root/dir_5_level_1/dir_1_level_2/dir_0_level_3: 6
+Data 1: root/dir_5_level_1/dir_1_level_2/dir_0_level_3
+Data 2: 3397
+Data 3: 3396
+Files:
+file_3_level_4.txt
+file_4_level_4.txt
+file_1_level_4.txt
+file_5_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
 Files:
 file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_2_level_2: 3
-Data 1: root//dir_5_level_1/dir_2_level_2
-Data 2: 3696
-Data 3: 3690
+nb .txt file in root/dir_5_level_1/dir_1_level_2: 2
+Data 1: root/dir_5_level_1/dir_1_level_2
+Data 2: 3396
+Data 3: 3391
+Files:
+file_1_level_3.txt
+file_2_level_3.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
+Files:
+file_0_level_2.txt
+nb .txt file in root/dir_5_level_1/dir_2_level_2: 3
+Data 1: root/dir_5_level_1/dir_2_level_2
+Data 2: 3398
+Data 3: 3391
 Files:
 file_3_level_3.txt
 file_1_level_3.txt
 file_4_level_3.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root/dir_5_level_1/dir_2_level_2/dir_2_level_3: 3
+Data 1: root/dir_5_level_1/dir_2_level_2/dir_2_level_3
+Data 2: 3399
+Data 3: 3398
+Files:
+file_1_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
 Files:
 file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_4_level_2: 2
-Data 1: root//dir_5_level_1/dir_4_level_2
-Data 2: 3698
-Data 3: 3690
+nb .txt file in root/dir_5_level_1/dir_2_level_2: 3
+Data 1: root/dir_5_level_1/dir_2_level_2
+Data 2: 3398
+Data 3: 3391
 Files:
+file_3_level_3.txt
 file_1_level_3.txt
-file_0_level_3.txt
-nb .txt file in root//dir_5_level_1/dir_4_level_2/dir_2_level_3: 7
-Data 1: root//dir_5_level_1/dir_4_level_2/dir_2_level_3
-Data 2: 3706
-Data 3: 3698
+file_4_level_3.txt
+nb .txt file in root/dir_5_level_1/dir_2_level_2/dir_0_level_3: 3
+Data 1: root/dir_5_level_1/dir_2_level_2/dir_0_level_3
+Data 2: 3400
+Data 3: 3398
+Files:
+file_1_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
+Files:
+file_0_level_2.txt
+nb .txt file in root/dir_5_level_1/dir_2_level_2: 3
+Data 1: root/dir_5_level_1/dir_2_level_2
+Data 2: 3398
+Data 3: 3391
+Files:
+file_3_level_3.txt
+file_1_level_3.txt
+file_4_level_3.txt
+nb .txt file in root/dir_5_level_1/dir_2_level_2/dir_5_level_3: 7
+Data 1: root/dir_5_level_1/dir_2_level_2/dir_5_level_3
+Data 2: 3401
+Data 3: 3398
 Files:
 file_3_level_4.txt
 file_4_level_4.txt
@@ -292,31 +824,53 @@ file_5_level_4.txt
 file_2_level_4.txt
 file_0_level_4.txt
 file_6_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
 Files:
 file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_4_level_2: 2
-Data 1: root//dir_5_level_1/dir_4_level_2
-Data 2: 3698
-Data 3: 3690
+nb .txt file in root/dir_5_level_1/dir_2_level_2: 3
+Data 1: root/dir_5_level_1/dir_2_level_2
+Data 2: 3398
+Data 3: 3391
+Files:
+file_3_level_3.txt
+file_1_level_3.txt
+file_4_level_3.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
+Files:
+file_0_level_2.txt
+nb .txt file in root/dir_5_level_1/dir_4_level_2: 2
+Data 1: root/dir_5_level_1/dir_4_level_2
+Data 2: 3402
+Data 3: 3391
 Files:
 file_1_level_3.txt
 file_0_level_3.txt
-nb .txt file in root//dir_5_level_1/dir_4_level_2/dir_3_level_3: 7
-Data 1: root//dir_5_level_1/dir_4_level_2/dir_3_level_3
-Data 2: 3710
-Data 3: 3698
+nb .txt file in root/dir_5_level_1/dir_4_level_2/dir_2_level_3: 7
+Data 1: root/dir_5_level_1/dir_4_level_2/dir_2_level_3
+Data 2: 3403
+Data 3: 3402
 Files:
 file_3_level_4.txt
 file_4_level_4.txt
@@ -325,93 +879,92 @@ file_5_level_4.txt
 file_2_level_4.txt
 file_0_level_4.txt
 file_6_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
 Files:
 file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_4_level_2: 2
-Data 1: root//dir_5_level_1/dir_4_level_2
-Data 2: 3698
-Data 3: 3690
+nb .txt file in root/dir_5_level_1/dir_4_level_2: 2
+Data 1: root/dir_5_level_1/dir_4_level_2
+Data 2: 3402
+Data 3: 3391
 Files:
 file_1_level_3.txt
 file_0_level_3.txt
-nb .txt file in root//dir_5_level_1/dir_4_level_2/dir_5_level_3: 3
-Data 1: root//dir_5_level_1/dir_4_level_2/dir_5_level_3
-Data 2: 3709
-Data 3: 3698
-Files:
-file_1_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_0_level_1: 4
-Data 1: root//dir_0_level_1
-Data 2: 3688
-Data 3: 3687
-Files:
-file_1_level_2.txt
-file_4_level_2.txt
-file_2_level_2.txt
-file_0_level_2.txt
-nb .txt file in root//dir_0_level_1/dir_3_level_2: 2
-Data 1: root//dir_0_level_1/dir_3_level_2
-Data 2: 3691
-Data 3: 3688
-Files:
-file_1_level_3.txt
-file_0_level_3.txt
-nb .txt file in root//dir_0_level_1/dir_3_level_2/dir_2_level_3: 5
-Data 1: root//dir_0_level_1/dir_3_level_2/dir_2_level_3
-Data 2: 3693
-Data 3: 3691
+nb .txt file in root/dir_5_level_1/dir_4_level_2/dir_4_level_3: 6
+Data 1: root/dir_5_level_1/dir_4_level_2/dir_4_level_3
+Data 2: 3404
+Data 3: 3402
 Files:
 file_3_level_4.txt
 file_4_level_4.txt
 file_1_level_4.txt
+file_5_level_4.txt
 file_2_level_4.txt
 file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
 Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_2_level_2: 1
-Data 1: root//dir_2_level_1/dir_2_level_2
-Data 2: 3701
-Data 3: 3689
+file_0_level_2.txt
+nb .txt file in root/dir_5_level_1/dir_4_level_2: 2
+Data 1: root/dir_5_level_1/dir_4_level_2
+Data 2: 3402
+Data 3: 3391
 Files:
 file_1_level_3.txt
-nb .txt file in root//dir_2_level_1/dir_2_level_2/dir_2_level_3: 7
-Data 1: root//dir_2_level_1/dir_2_level_2/dir_2_level_3
-Data 2: 3712
-Data 3: 3701
+file_0_level_3.txt
+nb .txt file in root/dir_5_level_1/dir_4_level_2/dir_5_level_3: 3
+Data 1: root/dir_5_level_1/dir_4_level_2/dir_5_level_3
+Data 2: 3405
+Data 3: 3402
+Files:
+file_1_level_4.txt
+file_2_level_4.txt
+file_0_level_4.txt
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
+Files:
+file_3_level_1.txt
+file_4_level_1.txt
+file_1_level_1.txt
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
+Files:
+file_0_level_2.txt
+nb .txt file in root/dir_5_level_1/dir_4_level_2: 2
+Data 1: root/dir_5_level_1/dir_4_level_2
+Data 2: 3402
+Data 3: 3391
+Files:
+file_1_level_3.txt
+file_0_level_3.txt
+nb .txt file in root/dir_5_level_1/dir_4_level_2/dir_3_level_3: 7
+Data 1: root/dir_5_level_1/dir_4_level_2/dir_3_level_3
+Data 2: 3406
+Data 3: 3402
 Files:
 file_3_level_4.txt
 file_4_level_4.txt
@@ -420,600 +973,47 @@ file_5_level_4.txt
 file_2_level_4.txt
 file_0_level_4.txt
 file_6_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_0_level_1: 4
-Data 1: root//dir_0_level_1
-Data 2: 3688
-Data 3: 3687
-Files:
-file_1_level_2.txt
-file_4_level_2.txt
-file_2_level_2.txt
-file_0_level_2.txt
-nb .txt file in root//dir_0_level_1/dir_3_level_2: 2
-Data 1: root//dir_0_level_1/dir_3_level_2
-Data 2: 3691
-Data 3: 3688
-Files:
-file_1_level_3.txt
-file_0_level_3.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_0_level_2: 3
-Data 1: root//dir_2_level_1/dir_0_level_2
-Data 2: 3703
-Data 3: 3689
-Files:
-file_3_level_3.txt
-file_1_level_3.txt
-file_0_level_3.txt
-nb .txt file in root//dir_2_level_1/dir_0_level_2/dir_6_level_3: 4
-Data 1: root//dir_2_level_1/dir_0_level_2/dir_6_level_3
-Data 2: 3714
-Data 3: 3703
-Files:
-file_3_level_4.txt
-file_1_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_0_level_1: 4
-Data 1: root//dir_0_level_1
-Data 2: 3688
-Data 3: 3687
-Files:
-file_1_level_2.txt
-file_4_level_2.txt
-file_2_level_2.txt
-file_0_level_2.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_0_level_2: 3
-Data 1: root//dir_2_level_1/dir_0_level_2
-Data 2: 3703
-Data 3: 3689
-Files:
-file_3_level_3.txt
-file_1_level_3.txt
-file_0_level_3.txt
-nb .txt file in root//dir_2_level_1/dir_0_level_2/dir_5_level_3: 4
-Data 1: root//dir_2_level_1/dir_0_level_2/dir_5_level_3
-Data 2: 3715
-Data 3: 3703
-Files:
-file_3_level_4.txt
-file_1_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_0_level_2: 3
-Data 1: root//dir_2_level_1/dir_0_level_2
-Data 2: 3703
-Data 3: 3689
-Files:
-file_3_level_3.txt
-file_1_level_3.txt
-file_0_level_3.txt
-nb .txt file in root//dir_2_level_1/dir_0_level_2/dir_2_level_3: 4
-Data 1: root//dir_2_level_1/dir_0_level_2/dir_2_level_3
-Data 2: 3711
-Data 3: 3703
-Files:
-file_3_level_4.txt
-file_1_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_3_level_2: 2
-Data 1: root//dir_2_level_1/dir_3_level_2
-Data 2: 3699
-Data 3: 3689
-Files:
-file_3_level_3.txt
-file_0_level_3.txt
-nb .txt file in root//dir_2_level_1/dir_3_level_2/dir_2_level_3: 7
-Data 1: root//dir_2_level_1/dir_3_level_2/dir_2_level_3
-Data 2: 3719
-Data 3: 3699
-Files:
-file_3_level_4.txt
-file_4_level_4.txt
-file_1_level_4.txt
-file_5_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-file_6_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
 Files:
 file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_4_level_2: 2
-Data 1: root//dir_5_level_1/dir_4_level_2
-Data 2: 3698
-Data 3: 3690
+nb .txt file in root/dir_5_level_1/dir_4_level_2: 2
+Data 1: root/dir_5_level_1/dir_4_level_2
+Data 2: 3402
+Data 3: 3391
 Files:
 file_1_level_3.txt
 file_0_level_3.txt
-nb .txt file in root//dir_5_level_1/dir_4_level_2/dir_4_level_3: 6
-Data 1: root//dir_5_level_1/dir_4_level_2/dir_4_level_3
-Data 2: 3708
-Data 3: 3698
-Files:
-file_3_level_4.txt
-file_4_level_4.txt
-file_1_level_4.txt
-file_5_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_3_level_2: 2
-Data 1: root//dir_2_level_1/dir_3_level_2
-Data 2: 3699
-Data 3: 3689
-Files:
-file_3_level_3.txt
-file_0_level_3.txt
-nb .txt file in root//dir_2_level_1/dir_3_level_2/dir_4_level_3: 5
-Data 1: root//dir_2_level_1/dir_3_level_2/dir_4_level_3
-Data 2: 3721
-Data 3: 3699
-Files:
-file_3_level_4.txt
-file_4_level_4.txt
-file_1_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_0_level_2: 3
-Data 1: root//dir_2_level_1/dir_0_level_2
-Data 2: 3703
-Data 3: 3689
-Files:
-file_3_level_3.txt
-file_1_level_3.txt
-file_0_level_3.txt
-nb .txt file in root//dir_2_level_1/dir_0_level_2/dir_4_level_3: 5
-Data 1: root//dir_2_level_1/dir_0_level_2/dir_4_level_3
-Data 2: 3713
-Data 3: 3703
-Files:
-file_3_level_4.txt
-file_4_level_4.txt
-file_1_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_3_level_2: 2
-Data 1: root//dir_2_level_1/dir_3_level_2
-Data 2: 3699
-Data 3: 3689
-Files:
-file_3_level_3.txt
-file_0_level_3.txt
-nb .txt file in root//dir_2_level_1/dir_3_level_2/dir_1_level_3: 7
-Data 1: root//dir_2_level_1/dir_3_level_2/dir_1_level_3
-Data 2: 3720
-Data 3: 3699
-Files:
-file_3_level_4.txt
-file_4_level_4.txt
-file_1_level_4.txt
-file_5_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-file_6_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_2_level_2: 1
-Data 1: root//dir_2_level_1/dir_2_level_2
-Data 2: 3701
-Data 3: 3689
-Files:
-file_1_level_3.txt
-nb .txt file in root//dir_2_level_1/dir_2_level_2/dir_0_level_3: 7
-Data 1: root//dir_2_level_1/dir_2_level_2/dir_0_level_3
-Data 2: 3722
-Data 3: 3701
-Files:
-file_3_level_4.txt
-file_4_level_4.txt
-file_1_level_4.txt
-file_5_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-file_6_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_0_level_2: 3
-Data 1: root//dir_2_level_1/dir_0_level_2
-Data 2: 3703
-Data 3: 3689
-Files:
-file_3_level_3.txt
-file_1_level_3.txt
-file_0_level_3.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_3_level_2: 2
-Data 1: root//dir_2_level_1/dir_3_level_2
-Data 2: 3699
-Data 3: 3689
-Files:
-file_3_level_3.txt
-file_0_level_3.txt
-nb .txt file in root//dir_2_level_1/dir_3_level_2/dir_5_level_3: 4
-Data 1: root//dir_2_level_1/dir_3_level_2/dir_5_level_3
-Data 2: 3723
-Data 3: 3699
-Files:
-file_3_level_4.txt
-file_1_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
+nb .txt file in root/dir_5_level_1: 1
+Data 1: root/dir_5_level_1
+Data 2: 3391
+Data 3: 3370
 Files:
 file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_3_level_2: 4
-Data 1: root//dir_5_level_1/dir_3_level_2
-Data 2: 3692
-Data 3: 3690
-Files:
-file_3_level_3.txt
-file_6_level_3.txt
-file_0_level_3.txt
-file_2_level_3.txt
-nb .txt file in root//dir_5_level_1/dir_3_level_2/dir_1_level_3: 6
-Data 1: root//dir_5_level_1/dir_3_level_2/dir_1_level_3
-Data 2: 3716
-Data 3: 3692
-Files:
-file_3_level_4.txt
-file_4_level_4.txt
-file_1_level_4.txt
-file_5_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
+nb .txt file in root: 3
+Data 1: root
+Data 2: 3370
+Data 3: 3370
 Files:
 file_3_level_1.txt
 file_4_level_1.txt
 file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_2_level_2: 1
-Data 1: root//dir_2_level_1/dir_2_level_2
-Data 2: 3701
-Data 3: 3689
-Files:
-file_1_level_3.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
-Files:
-file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_3_level_2: 4
-Data 1: root//dir_5_level_1/dir_3_level_2
-Data 2: 3692
-Data 3: 3690
-Files:
-file_3_level_3.txt
-file_6_level_3.txt
-file_0_level_3.txt
-file_2_level_3.txt
-nb .txt file in root//dir_5_level_1/dir_3_level_2/dir_4_level_3: 3
-Data 1: root//dir_5_level_1/dir_3_level_2/dir_4_level_3
-Data 2: 3717
-Data 3: 3692
-Files:
-file_1_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
-Files:
-file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_3_level_2: 4
-Data 1: root//dir_5_level_1/dir_3_level_2
-Data 2: 3692
-Data 3: 3690
-Files:
-file_3_level_3.txt
-file_6_level_3.txt
-file_0_level_3.txt
-file_2_level_3.txt
-nb .txt file in root//dir_5_level_1/dir_3_level_2/dir_5_level_3: 3
-Data 1: root//dir_5_level_1/dir_3_level_2/dir_5_level_3
-Data 2: 3718
-Data 3: 3692
-Files:
-file_1_level_4.txt
-file_2_level_4.txt
-file_0_level_4.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
-Files:
-file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_4_level_2: 2
-Data 1: root//dir_5_level_1/dir_4_level_2
-Data 2: 3698
-Data 3: 3690
-Files:
-file_1_level_3.txt
-file_0_level_3.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root//dir_2_level_1/dir_3_level_2: 2
-Data 1: root//dir_2_level_1/dir_3_level_2
-Data 2: 3699
-Data 3: 3689
-Files:
-file_3_level_3.txt
-file_0_level_3.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
-Files:
-file_0_level_2.txt
-nb .txt file in root//dir_5_level_1/dir_3_level_2: 4
-Data 1: root//dir_5_level_1/dir_3_level_2
-Data 2: 3692
-Data 3: 3690
-Files:
-file_3_level_3.txt
-file_6_level_3.txt
-file_0_level_3.txt
-file_2_level_3.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_2_level_1: 1
-Data 1: root//dir_2_level_1
-Data 2: 3689
-Data 3: 3687
-Files:
-file_1_level_2.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-nb .txt file in root//dir_5_level_1: 1
-Data 1: root//dir_5_level_1
-Data 2: 3690
-Data 3: 3687
-Files:
-file_0_level_2.txt
-nb .txt file in root/: 3
-Data 1: root/
-Data 2: 3687
-Data 3: 3687
-Files:
-file_3_level_1.txt
-file_4_level_1.txt
-file_1_level_1.txt
-Total number of .txt files: 3
+Total number of .txt files: 156

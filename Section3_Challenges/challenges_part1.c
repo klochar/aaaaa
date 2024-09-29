@@ -34,7 +34,7 @@ int counterNbTxt(const char *dirpath) {
     return txtCounterInThisDir;
 }
 
-void proceDir(const char *dirpath, FILE *output, pid_t parent_pid) {
+void proceDir(const char *dirpath, FILE *output, pid_t parent_pid, int pipe_fd[2]) {
     struct dirent *entry;
     DIR *dir = opendir(dirpath);
     if (!dir) {
@@ -43,14 +43,13 @@ void proceDir(const char *dirpath, FILE *output, pid_t parent_pid) {
     }
     pid_t pid = getpid();
     int txt_count = counterNbTxt(dirpath);
-    txtCounterTotal+=txt_count;
+    // txtCounterTotal+=txt_count;
     //printf("%d\n",txt_count);
-
+    int total_txt_in_subdirs=0;
     fprintf(output, "nb .txt file in %s: %d\n", dirpath, txt_count);
     fprintf(output, "Data 1: %s\n", dirpath); 
     fprintf(output, "Data 2: %d\n", pid);
     fprintf(output, "Data 3: %d\n", parent_pid); 
-
     fprintf(output, "Files:\n");
     rewinddir(dir); 
     while ((entry = readdir(dir)) != NULL) {
@@ -58,22 +57,32 @@ void proceDir(const char *dirpath, FILE *output, pid_t parent_pid) {
             fprintf(output, "%s\n", entry->d_name);
         }
     }
-
     rewinddir(dir); 
     while ((entry = readdir(dir)) != NULL) {
         if (entry->d_type == DT_DIR && strcmp(entry->d_name, ".") != 0 && strcmp(entry->d_name, "..") != 0) {
+            int sub_pipe_fd[2];
+            pipe(sub_pipe_fd);
             pid_t child_pid = fork();
             if (child_pid == 0) {
+                close(sub_pipe_fd[0]);
                 char subdir[1024];
                 snprintf(subdir, sizeof(subdir), "%s/%s", dirpath, entry->d_name);
-                proceDir(subdir, output, pid); 
+                proceDir(subdir, output, pid, sub_pipe_fd);
                 exit(0);
+            }else {  
+                close(sub_pipe_fd[1]);
+                int child_txt_count;
+                read(sub_pipe_fd[0], &child_txt_count, sizeof(int));
+                total_txt_in_subdirs += child_txt_count;
+                close(sub_pipe_fd[0]);
             }
         }
     }
 
     closedir(dir);
     while (wait(NULL) > 0);
+    int total_txt = txt_count + total_txt_in_subdirs;
+    write(pipe_fd[1], &total_txt, sizeof(int));
 }
 
 int main(int argc, char *argv[]) {
@@ -82,6 +91,9 @@ int main(int argc, char *argv[]) {
         exit(EXIT_FAILURE);
     }
 
+    int pipe_fd[2];
+    pipe(pipe_fd);
+
     const char *root_dir = argv[1];
 
     FILE *output = fopen("challenges_output.txt", "w");
@@ -89,12 +101,17 @@ int main(int argc, char *argv[]) {
         perror("fopen");
         exit(EXIT_FAILURE);
     }
-    proceDir(root_dir, output, getpid());
+    proceDir(root_dir, output, getpid(), pipe_fd);
 
-    fprintf(output, "Total number of .txt files: %d\n", txtCounterTotal);
-    printf("total :%d",txtCounterTotal);
+    int total_txt_files;
+    close(pipe_fd[1]);  // Fermer le côté écriture du pipe
+    read(pipe_fd[0], &total_txt_files, sizeof(int));  // Lire le résultat final
+    close(pipe_fd[0]);
+
+    printf("Total number of .txt files: %d\n", total_txt_files);
+    fprintf(output, "Total number of .txt files: %d\n", total_txt_files);
+
     fclose(output);
-    
     return 0;
 }
 
