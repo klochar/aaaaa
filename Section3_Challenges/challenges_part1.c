@@ -104,8 +104,8 @@ int main(int argc, char *argv[]) {
     proceDir(root_dir, output, getpid(), pipe_fd);
 
     int total_txt_files;
-    close(pipe_fd[1]);  // Fermer le côté écriture du pipe
-    read(pipe_fd[0], &total_txt_files, sizeof(int));  // Lire le résultat final
+    close(pipe_fd[1]);  
+    read(pipe_fd[0], &total_txt_files, sizeof(int)); 
     close(pipe_fd[0]);
 
     printf("Total number of .txt files: %d\n", total_txt_files);
